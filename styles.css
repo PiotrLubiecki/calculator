@@ -49,15 +49,19 @@ body {
     line-height: 50px;
     font-size: 24px;
     margin-right: 10px;
+    margin-left: 10px;
     opacity: 0.8;
 }
 
 #current-calculation{
     align-self: flex-end;
+    max-width: 500px;
+    overflow: hidden;
     height: 110px;
     line-height: 110px;
     font-size: 40px;
     margin-right: 10px;
+    margin-left: 10px;
 }
 
 #buttons {

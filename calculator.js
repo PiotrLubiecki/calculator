@@ -14,7 +14,9 @@ const numberButtons = document.querySelectorAll('.number-button');
                 clearAll();
                 alreadyCalculated = false;
             }
-            bottomDisplay += numberButton.textContent;
+            if(bottomDisplay.length <= 20){
+                bottomDisplay += numberButton.textContent;
+            }
             updateDisplay();
         });
     });         //updates display when number is clicked, if calculation tooks place clears display first
